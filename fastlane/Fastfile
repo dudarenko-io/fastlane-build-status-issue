@@ -1,0 +1,6 @@
+lane :build do
+    scan(
+        clean: true,
+        build_for_testing: true
+    )
+end
